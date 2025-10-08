@@ -42,3 +42,10 @@ Delete a branch:                 git branch -d <name-branch>
 Estar en la rama que recibira los cambios - master/main:
 
 Merge :                          git merge  <rama origen> <rama destino>
+
+#----------- GitLab ---------------------------------------------------------
+
+git clone 
+
+
+
