@@ -55,7 +55,10 @@ Interact with remote:            git remote -v
 
 Enviar cambios al repo origen:                git push origin main     "enviar a origin (remote) from branch main (local)"
 Obtener todo del repo origin:                 git pull origin main     "obtener cambios de origin (remoto) y ponerlos en main (local)"
-Comprueba si hay cambios del repo origin:     git fetch origin main    "solo chequea si hay cambios en origin (remote), no los baja a main (local)"
+
+Comprueba si hay cambios del repo origin:     git fetch origin main      "solo chequea si hay cambios en origin (remote), no los baja a main (local)"
+Para ver los cambios en origin(remote):       git checkout origin/main   "nos movemos a GitHub a la rama main"
+
 
 
 
