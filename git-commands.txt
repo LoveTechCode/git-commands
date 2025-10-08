@@ -49,6 +49,10 @@ Merge :                          git merge  <rama origen> <rama destino>
 
 #----------- GitLab ---------------------------------------------------------
 
+Tokens: <ver fichero pwd>
+Profile (foto) / Settings / <> Developer settings / Personal access tokens
+
+
 Copy en local un remoto:         git clone https://github.com/LoveTechCode/git-commands.git
 
 Interact with remote:            git remote -v
@@ -60,9 +64,20 @@ Comprueba si hay cambios del repo origin:     git fetch origin main      "solo c
 Para ver los cambios en origin(remote):       git checkout origin/main   "nos movemos a GitHub a la rama main"
 
 
+Subir un main (local) a GitHub (vacio)
+1. Remote: Crear repo vacio en GitHub (darle un nombre, no hace falta que sea el del local)
+2. Local: ir a la carpeta y hacer:            git init .
+                                              git remote -v                                        ---> (vacio) no habra ningun origin definido en local
+                                              git remote add origin <https://GitHub-repo>
+                                              git push origin main
 
 
-Tokens: <ver fichero pwd>
-Profile (foto) / Settings / <> Developer settings / Personal access tokens
+
+
+
+
+
+
+
 
 
