@@ -53,8 +53,8 @@ Copy en local un remoto:         git clone https://github.com/LoveTechCode/git-c
 
 Interact with remote:            git remote -v
 
-Obtener cambios del repo origin: git fetch 
-Enviar cambios al repo origen:   git push origin main    "wnviar a origin (remote) from branch main (local)"
+Obtener cambios del repo origin: git fetch origin main  "obtener cambios de origin (remoto) y ponerlos en main (local)"
+Enviar cambios al repo origen:   git push origin main    "enviar a origin (remote) from branch main (local)"
 
 Tokens: <ver fichero pwd>
 Profile (foto) / Settings / <> Developer settings / Personal access tokens
