@@ -1,0 +1,44 @@
+git config --global user.name "xxxx"
+git config --global user.email "xxxx@xxxxx"
+git config list
+
+
+ir al directorio donde inciar el git:    git init .
+
+
+git status
+git log
+git log --oneline
+git log -p
+
+
+Add to stage:                    git add <file.txt>
+Remove from stage:               git restore --staged <file.txt>
+
+
+Move from stage to master:       git commit .
+                                 git commit -m "mensaje"  .l
+
+Change commit comments:          git amend ???
+
+
+In master/main:
+create a new branch:             git branch <new-branch-name> 
+activate branch:                 git checkout <new-branch-name> 
+All in once:                     git checkout -b <new-branch-name>
+To see all branches and active:  git branch
+
+
+Change name to branches
+1) get within the branch:        git branch -m <new-name>
+2) from any branch:              git branch -m <old-name>  <new-name>
+
+
+No estar en la rama, solo locales, no publicadas en GitLab   
+
+Delete a branch:                 git branch -d <name-branch>
+
+
+Estar en la rama que recibira los cambios - master/main:
+
+Merge :                          git merge  <rama origen> <rama destino>
