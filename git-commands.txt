@@ -21,7 +21,7 @@ Remove from stage:               git restore --staged <file.txt>
 
 
 Move from stage to master:       git commit .
-                                 git commit -m "mensaje"  .l
+                                 git commit -m "mensaje"
 
 Change commit comments:          git amend ???
 
